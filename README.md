@@ -32,9 +32,10 @@ Follow the steps below to set up and run a Redis container using Docker.
 1. Open the terminal in VS Code or any preferred terminal.
 2. Execute the following commands:
     ```bash
-    docker build -t kusuma/redis:latest .  --> to build the image
-    docker run kusuma/redis                --> Running the container
+    docker build -t kusuma/redis:latest .  
+    docker run kusuma/redis
     ```
+    Above commands will build the image and run the container of the built image.
 
 ---
 
