@@ -53,6 +53,57 @@ Follow the steps below to set up and run a Redis container using Docker.
     ```bash
     docker stop <container_id>
     ```
+### Step 5: Basic Commands to Run in the Docker Environment
+Below are essential Docker commands and their functionalities:
+
+1. **Pull an image from Docker Hub:**
+    ```bash
+    docker pull <image_name>
+    ```
+    This command fetches the specified image from the Docker Hub repository.
+
+2. **Run a Docker container from an image:**
+    ```bash
+    docker run <image_name>
+    ```
+    Starts a new container from the specified image.
+
+3. **List running containers:**
+    ```bash
+    docker ps
+    ```
+    Displays details of all active containers.
+
+4. **List all containers (active and stopped):**
+    ```bash
+    docker ps -a
+    ```
+    Shows details of all containers, including those that are stopped.
+
+5. **List all Docker images:**
+    ```bash
+    docker images
+    ```
+    Lists all images stored on the system.
+
+6. **Remove a stopped container:**
+    ```bash
+    docker rm <container_id>
+    ```
+    Deletes a container using its ID.
+
+7. **Remove an image by name:**
+    ```bash
+    docker rmi <image_name>
+    ```
+    Removes the specified image from your system.
+
+8. **Stop a running container:**
+    ```bash
+    docker stop <container_id>
+    ```
+    Stops a running container using its ID.
+
 
 ---
 
